@@ -95,7 +95,7 @@ public abstract class ConductorBase<T> : Screen, IConductor<T>, IParent<T>, IChi
     /// </summary>
     /// <param name="item">Child to close</param>
     /// <param name="dialogResult">Unused in this scenario</param>
-    void IChildDelegate.CloseItem(object item, bool? dialogResult)
+    public virtual void CloseItem(object item, bool? dialogResult)
     {
         if (item is T typedItem)
             this.CloseItem(typedItem);
