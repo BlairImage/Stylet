@@ -52,4 +52,8 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\StyletIoC\StyletIoC.csproj" />
+  </ItemGroup>
 </Project>
