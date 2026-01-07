@@ -28,6 +28,8 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedAllSources>true</EmbedAllSources>
     <DebugType>portable</DebugType>
+
+     <NoWarn>CS8618;CS8632;CS8669</NoWarn>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' != 'net452'">
